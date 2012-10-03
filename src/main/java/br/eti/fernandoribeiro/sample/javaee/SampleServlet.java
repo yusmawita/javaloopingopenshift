@@ -18,7 +18,7 @@ public final class SampleServlet extends HttpServlet {
 			final HttpServletResponse resp) throws IOException,
 			ServletException {
 		final RequestDispatcher dispatcher = req
-				.getRequestDispatcher("/WEB-INF/jsp/message.jsp");
+				.getRequestDispatcher("/WEB-INF/jsp/confirmation.jsp");
 
 		dispatcher.forward(req, resp);
 	}
