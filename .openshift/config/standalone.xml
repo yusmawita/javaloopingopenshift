@@ -198,8 +198,8 @@
                     <eviction strategy="LRU"/>
                     <file-store/>
                 </replicated-cache>
-                <!-- Clustered cache used internally by EJB subsytem for managing the client-mapping(s) of
-                the socketbinding referenced by the EJB remoting connector -->
+                <!--Clustered cache used internally by EJB subsytem for managing the client-mapping(s) of
+                the socketbinding referenced by the EJB remoting connector-->
                 <replicated-cache name="remote-connector-client-mappings" mode="SYNC" batching="true"/>
                 <distributed-cache name="dist" mode="ASYNC" batching="true">
                     <eviction strategy="LRU"/>
@@ -418,14 +418,14 @@
         <subsystem xmlns="urn:jboss:domain:naming:1.1"/>
         <subsystem xmlns="urn:jboss:domain:osgi:1.2" activation="lazy">
             <properties>
-                <!-- Specifies the beginning start level of the framework -->
+                <!--Specifies the beginning start level of the framework-->
                 <property name="org.osgi.framework.startlevel.beginning">1</property>
             </properties>
             <capabilities>
-                <!-- modules registered with the OSGi layer on startup -->
+                <!--modules registered with the OSGi layer on startup-->
                 <capability name="javax.servlet.api:v25"/>
                 <capability name="javax.transaction.api"/>
-                <!-- bundles started in startlevel 1 -->
+                <!--bundles started in startlevel 1-->
                 <capability name="org.apache.felix.log" startlevel="1"/>
                 <capability name="org.jboss.osgi.logging" startlevel="1"/>
                 <capability name="org.apache.felix.configadmin" startlevel="1"/>
@@ -502,8 +502,8 @@
             <loopback-address value="${env.OPENSHIFT_INTERNAL_IP}"/>
         </interface>
         <interface name="unsecure">
-            <!-- Used for IIOP sockets in the standarad configuration.
-                 To secure JacORB you need to setup SSL -->
+            <!--Used for IIOP sockets in the standarad configuration.
+                 To secure JacORB you need to setup SSL-->
             <loopback-address value="${env.OPENSHIFT_INTERNAL_IP}"/>
         </interface>
     </interfaces>
