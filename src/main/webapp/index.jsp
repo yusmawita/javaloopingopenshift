@@ -16,7 +16,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 <body>
 	<form action="sendMessage">
 		<input name="message" type="text"> <input type="submit"
-			value="Send Message">
+			value="Tessss">
 	</form>
 </body>
 </html>
