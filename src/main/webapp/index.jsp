@@ -14,6 +14,24 @@ You should have received a copy of the GNU Lesser General Public License along w
 <title>Java EE Sample Application</title>
 </head>
 <body>
+
+<%
+for(int i = 0;i<1000;i++){
+for(int j = 0;j<=i;j++){
+%>
+
+<p>@ </p>
+
+<%
+}
+%>
+
+<br/>
+
+<%
+}
+%>
+ 
 	
 <%
     double num = Math.random();
