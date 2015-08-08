@@ -18,12 +18,7 @@ ul {
 </style>
 
 </head>
-<body background="linedpaper.png">
-
-
-
-
-
+<body background="pattern.jpg">
 
 <h1>Silahkan klik link dibawah ini secara bergantian</h1>
 <ul>
