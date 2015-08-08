@@ -4,7 +4,7 @@
 <head>
 <title>Java EE Sample Application</title>
 </head>
-<body bgcolor="green">
+<body background="pattern.jpg">
 
 
 <a href="code1.jsp"> Looping </a>
