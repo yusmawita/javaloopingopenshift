@@ -18,7 +18,7 @@ ul {
 </style>
 
 </head>
-<body background="pattern.jpg">
+<body background="linedpaper.png">
 
 
 
