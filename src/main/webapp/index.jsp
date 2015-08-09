@@ -15,10 +15,14 @@ ul {
     padding-left: 40px;
 }
 
+body {
+ background-image: url("restaurant.png");
+}
+
 </style>
 
 </head>
-<body background="pattern.jpg">
+
 
 <h1>Silahkan klik link dibawah ini secara bergantian</h1>
 <ul>
