@@ -11,7 +11,16 @@ You should have received a copy of the GNU Lesser General Public License along w
 --%>
 <html>
 <head>
-<title>Java EE Sample Application</title>
+<title>Bilangan Genap dan Ganjil</title>
+<style>
+body {
+ background-image: url("pinkrice.png");
+ color: #C71585;
+}
+
+
+
+
 </head>
 <body>
 <h1>Bilangan Genap dan Bilangan Ganjil</h1>

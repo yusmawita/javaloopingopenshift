@@ -12,6 +12,19 @@ You should have received a copy of the GNU Lesser General Public License along w
 <html>
 <head>
 <title>Java EE Sample Application</title>
+<style>
+body {
+ background-image: url("pinkrice.png");
+ color: #C71585;
+
+}
+
+
+
+
+</style>
+
+
 </head>
 <body>
 <%
