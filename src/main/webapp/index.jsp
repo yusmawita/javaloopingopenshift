@@ -16,7 +16,7 @@ ul {
 }
 
 body {
- background-image: url("pinkric.png");
+ background-image: url("pinkrice.png");
 }
 
 a:link {
