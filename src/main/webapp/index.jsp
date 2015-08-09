@@ -16,7 +16,37 @@ ul {
 }
 
 body {
- background-image: url("restaurant.png");
+ background-image: url("pinkric.png");
+}
+
+a:link {
+    color: #C71585;
+}
+
+/* visited link */
+a:visited {
+    color: #C71585 ;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF ;
+}
+
+/* selected link */
+a:active {
+    color: #8B0A50 ;
+}
+
+
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif ;
+}
+
+h2 {
+
+
+font-family: "Comic Sans MS", cursive, sans-serif ;
 }
 
 </style>
