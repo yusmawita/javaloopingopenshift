@@ -11,7 +11,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 --%>
 <html>
 <head>
-<title>Java EE Sample Application</title>
+<title>Looping Segitiga</title>
 <style>
 body {
  background-image: url("pinkrice.png");
